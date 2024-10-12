@@ -1,4 +1,4 @@
-# object-tracking-yolov8-native
+# object-tracking-yolov8
 
 ## data
 
