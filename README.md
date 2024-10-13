@@ -63,11 +63,14 @@ A modern social media app built with Next.js, Prisma, Clerk for authentication, 
 
     To run this project, you will need to set up the following environment variables in a .env file:
 
+        NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_public_key>
+        CLERK_SECRET_KEY=<your_clerk_key_secret>
+        NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+        NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+        NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=<your_cloudinary_name>
+        NEXT_PUBLIC_CLOUDINARY_API_KEY=<your_cloudinary_api_secret>
         DATABASE_URL="mysql://username:password@localhost:3306/dbname"
-        NEXT_PUBLIC_CLERK_FRONTEND_API=<your_clerk_frontend_api>
-        CLERK_API_KEY=<your_clerk_api_key>
-        CLERK_JWT_KEY=<your_clerk_jwt_key>
-        NGROK_URL=<your_ngrok_url>
+        WEBHOOK_SECRET=<your_webhook_secret>
 
     Ensure to replace these placeholders with your actual credentials.
 
