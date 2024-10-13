@@ -87,11 +87,11 @@ A modern social media app built with Next.js, Prisma, Clerk for authentication, 
 
 ## Folder Structure
 
-.
-├── components # Reusable UI components (Navbar, Feed, etc.)
-├── lib # Prisma client, utility functions, and Clerk configuration
-├── pages # Next.js pages (e.g., /profile, /feed)
-├── prisma # Prisma schema and migrations
-├── public # Static assets (images, etc.)
-├── styles # Global and component-specific CSS
-└── .env # Environment variables
+    .
+    ├── components # Reusable UI components (Navbar, Feed, etc.)
+    ├── lib # Prisma client, utility functions, and Clerk configuration
+    ├── pages # Next.js pages (e.g., /profile, /feed)
+    ├── prisma # Prisma schema and migrations
+    ├── public # Static assets (images, etc.)
+    ├── styles # Global and component-specific CSS
+    └── .env # Environment variables
