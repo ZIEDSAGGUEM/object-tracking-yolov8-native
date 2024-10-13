@@ -26,6 +26,7 @@ A modern social media app built with Next.js, Prisma, Clerk for authentication, 
 - **Next.js** – React-based framework for server-side rendering and static site generation
 - **Prisma** – ORM for database access
 - **Clerk** – User authentication and management
+- **Docker** – Containerization for easy setup and scalability
 - **Tailwind CSS** – Utility-first CSS framework
 - **MySQL** – Database for storing user and post data
 - **ngrok** – For exposing local development environments to the internet
